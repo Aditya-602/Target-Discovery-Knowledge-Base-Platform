@@ -1,5 +1,6 @@
 import IntroText from "./IntroText";
 import ByGene from "./ByGene";
+import ByProtein from "./ByProtein.jsx";
 
 const MainPage = () => {
   return (
@@ -9,6 +10,9 @@ const MainPage = () => {
       </div>
       <div className="w-full h-screen">
         <ByGene />
+      </div>
+      <div className="w-full h-screen">
+        <ByProtein />
       </div>
     </div>
   );
