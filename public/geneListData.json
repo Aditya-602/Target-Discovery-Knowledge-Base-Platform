@@ -1,0 +1,252 @@
+[
+    {
+        "ENSG00000064687": [
+            {
+                "ENSG_ID": "ENSG00000064687",
+                "SYMBOL": "ABCA7",
+                "Alias": "ABCA7",
+                "Description": "ATP binding cassette subfamily A member 7 [HGNC:37]"
+            }
+        ]
+    },
+    {
+        "ENSG00000101986": [
+            {
+                "ENSG_ID": "ENSG00000101986",
+                "SYMBOL": "ABCD1",
+                "Alias": "ABCD1",
+                "Description": "ATP binding cassette subfamily D member 1 [HGNC:61]"
+            }
+        ]
+    },
+    {
+        "ENSG00000188021": [
+            {
+                "ENSG_ID": "ENSG00000188021",
+                "SYMBOL": "UBQLN2",
+                "Alias": "UBQLN2",
+                "Description": "ubiquilin 2 [HGNC:12509]"
+            }
+        ]
+    },
+    {
+        "ENSG00000092439": [
+            {
+                "ENSG_ID": "ENSG00000092439",
+                "SYMBOL": "TRPM7",
+                "Alias": "TRPM7",
+                "Description": "transient receptor potential cation channel subfamily M member 7 [HGNC:17994]"
+            }
+        ]
+    },
+    {
+        "ENSG00000107897": [
+            {
+                "ENSG_ID": "ENSG00000107897",
+                "SYMBOL": "ACBD5",
+                "Alias": "ACBD5",
+                "Description": "acyl-CoA binding domain containing 5 [HGNC:23338]"
+            }
+        ]
+    },
+    {
+        "ENSG00000131269": [
+            {
+                "ENSG_ID": "ENSG00000131269",
+                "SYMBOL": "ABCB7",
+                "Alias": "ABCB7",
+                "Description": "ATP binding cassette subfamily B member 7 [HGNC:48]"
+            }
+        ]
+    },
+    {
+        "ENSG00000165029": [
+            {
+                "ENSG_ID": "ENSG00000165029",
+                "SYMBOL": "ABCA1",
+                "Alias": "ABCA1",
+                "Description": "ATP binding cassette subfamily A member 1 [HGNC:29]"
+            }
+        ]
+    },
+    {
+        "ENSG00000090861": [
+            {
+                "ENSG_ID": "ENSG00000090861",
+                "SYMBOL": "AARS1",
+                "Alias": "AARS1",
+                "Description": "alanyl-tRNA synthetase 1 [HGNC:20]"
+            }
+        ]
+    },
+    {
+        "ENSG00000175164": [
+            {
+                "ENSG_ID": "ENSG00000175164",
+                "SYMBOL": "ABO",
+                "Alias": "ABO",
+                "Description": "ABO, alpha 1-3-N-acetylgalactosaminyltransferase and alpha 1-3-galactosyltransferase [HGNC:79]"
+            }
+        ]
+    },
+    {
+        "ENSG00000165280": [
+            {
+                "ENSG_ID": "ENSG00000165280",
+                "SYMBOL": "VCP",
+                "Alias": "VCP",
+                "Description": "valosin containing protein [HGNC:12666]"
+            }
+        ]
+    },
+    {
+        "ENSG00000157766": [
+            {
+                "ENSG_ID": "ENSG00000157766",
+                "SYMBOL": "ACAN",
+                "Alias": "ACAN",
+                "Description": "aggrecan [HGNC:319]"
+            }
+        ]
+    },
+    {
+        "ENSG00000173208": [
+            {
+                "ENSG_ID": "ENSG00000173208",
+                "SYMBOL": "ABCD2",
+                "Alias": "ABCD2",
+                "Description": "ATP binding cassette subfamily D member 2 [HGNC:66]"
+            }
+        ]
+    },
+    {
+        "ENSG00000072818": [
+            {
+                "ENSG_ID": "ENSG00000072818",
+                "SYMBOL": "ACAP1",
+                "Alias": "ACAP1",
+                "Description": "ArfGAP with coiled-coil, ankyrin repeat and PH domains 1 [HGNC:16467]"
+            }
+        ]
+    },
+    {
+        "ENSG00000175899": [
+            {
+                "ENSG_ID": "ENSG00000175899",
+                "SYMBOL": "A2M",
+                "Alias": "A2M",
+                "Description": "alpha-2-macroglobulin [HGNC:7]"
+            }
+        ]
+    },
+    {
+        "ENSG00000085563": [
+            {
+                "ENSG_ID": "ENSG00000085563",
+                "SYMBOL": "ABCB1",
+                "Alias": "ABCB1",
+                "Description": "ATP binding cassette subfamily B member 1 [HGNC:40]"
+            }
+        ]
+    },
+    {
+        "ENSG00000159640": [
+            {
+                "ENSG_ID": "ENSG00000159640",
+                "SYMBOL": "ACE",
+                "Alias": "ACE",
+                "Description": "angiotensin I converting enzyme [HGNC:2707]"
+            }
+        ]
+    },
+    {
+        "ENSG00000118777": [
+            {
+                "ENSG_ID": "ENSG00000118777",
+                "SYMBOL": "ABCG2",
+                "Alias": "ABCG2",
+                "Description": "ATP binding cassette subfamily G member 2 (Junior blood group) [HGNC:74]"
+            }
+        ]
+    },
+    {
+        "ENSG00000124164": [
+            {
+                "ENSG_ID": "ENSG00000124164",
+                "SYMBOL": "VAPB",
+                "Alias": "VAPB",
+                "Description": "VAMP associated protein B and C [HGNC:12649]"
+            }
+        ]
+    },
+    {
+        "ENSG00000115657": [
+            {
+                "ENSG_ID": "ENSG00000115657",
+                "SYMBOL": "ABCB6",
+                "Alias": "ABCB6",
+                "Description": "ATP binding cassette subfamily B member 6 (Langereis blood group) [HGNC:47]"
+            }
+        ]
+    },
+    {
+        "ENSG00000097007": [
+            {
+                "ENSG_ID": "ENSG00000097007",
+                "SYMBOL": "ABL1",
+                "Alias": "ABL1",
+                "Description": "ABL proto-oncogene 1, non-receptor tyrosine kinase [HGNC:76]"
+            }
+        ]
+    },
+    {
+        "ENSG00000023839": [
+            {
+                "ENSG_ID": "ENSG00000023839",
+                "SYMBOL": "ABCC2",
+                "Alias": "ABCC2",
+                "Description": "ATP binding cassette subfamily C member 2 [HGNC:53]"
+            }
+        ]
+    },
+    {
+        "ENSG00000141338": [
+            {
+                "ENSG_ID": "ENSG00000141338",
+                "SYMBOL": "ABCA8",
+                "Alias": "ABCA8",
+                "Description": "ATP binding cassette subfamily A member 8 [HGNC:38]"
+            }
+        ]
+    },
+    {
+        "ENSG00000150967": [
+            {
+                "ENSG_ID": "ENSG00000150967",
+                "SYMBOL": "ABCB9",
+                "Alias": "ABCB9",
+                "Description": "ATP binding cassette subfamily B member 9 [HGNC:50]"
+            }
+        ]
+    },
+    {
+        "ENSG00000127824": [
+            {
+                "ENSG_ID": "ENSG00000127824",
+                "SYMBOL": "TUBA4A",
+                "Alias": "TUBA4A",
+                "Description": "tubulin alpha 4a [HGNC:12407]"
+            }
+        ]
+    },
+    {
+        "ENSG00000115977": [
+            {
+                "ENSG_ID": "ENSG00000115977",
+                "SYMBOL": "AAK1",
+                "Alias": "AAK1",
+                "Description": "AP2 associated kinase 1 [HGNC:19679]"
+            }
+        ]
+    }
+]

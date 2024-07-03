@@ -1,4 +1,4 @@
-import video1 from "../assets/video1.mp4";
+import video1 from "../../assets/video1.mp4";
 
 const IntroText = () => {
   return (
@@ -11,9 +11,11 @@ const IntroText = () => {
         muted
       />
       <div className="absolute bg-black bg-opacity-75 w-full h-full "></div>
-      <div className="relative text-white text-center space-y-2 animate-fadeInUp">
-        <h1 className="text-6xl">Target discovery</h1>
-        <h1 className="text-6xl">Knowledegbase Platform</h1>
+      <div className="relative flex flex-col items-center">
+        <div className="text-white text-center space-y-2 animate-fadeInUp p-6">
+          <h1 className="text-6xl">Target discovery</h1>
+          <h1 className="text-6xl">Knowledegbase Platform</h1>
+        </div>
       </div>
     </div>
   );

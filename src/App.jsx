@@ -1,6 +1,4 @@
-import ByGene from "./pages/ByGene.jsx";
-import IntroText from "./pages/IntroText.jsx";
-import MainPage from "./pages/MainPage.jsx";
+import MainPage from "./components/pages/MainPage.jsx";
 
 function App() {
   return (
