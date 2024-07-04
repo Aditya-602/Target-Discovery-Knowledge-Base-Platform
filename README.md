@@ -1,3 +1,3 @@
-# Target discovery Knowledegbase platform
+# Target discovery Knowledge base platform
 
 website
