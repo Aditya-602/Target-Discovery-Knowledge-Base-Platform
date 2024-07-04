@@ -1,6 +1,11 @@
 import video1 from "../../assets/video1.mp4";
+import { useNavigate } from "react-router-dom";
 
 const ByGene = () => {
+  const navigate = useNavigate();
+  const goBack = () => {
+    navigate("/");
+  };
   return (
     <div className="relative h-screen flex items-center justify-center">
       <video
@@ -11,7 +16,7 @@ const ByGene = () => {
         className="absolute top-0 left-0 w-full h-full object-cover"
       />
       <div className="absolute bg-black bg-opacity-75 h-full w-full"></div>
-      <div className="relative bg-white w-1/2 p-4 flex flex-col items-center rounded-lg">
+      <div className="relative bg-white w-1/2 p-4 flex flex-col bottom-8 items-center rounded-lg">
         <div className="bg-white text-black p-4 align-top">
           <h1 className="text-4xl font-medium">Search by multiple Proteins</h1>
         </div>
@@ -70,6 +75,12 @@ const ByGene = () => {
           </div>
         </div>
       </div>
+      <button
+        className="bg-white absolute text-sm rounded-lg py-2 px-4 bottom-4 mt-4 p-4 text-black border border-black"
+        onClick={goBack}
+      >
+        Go back
+      </button>
     </div>
   );
 };

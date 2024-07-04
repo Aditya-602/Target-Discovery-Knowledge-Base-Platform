@@ -1,6 +1,13 @@
 import video1 from "../../assets/video1.mp4";
+import { useNavigate } from "react-router-dom";
 
 const ByProtein = () => {
+  const navigate = useNavigate();
+
+  const goBack = () => {
+    navigate("/");
+  };
+
   return (
     <div className="relative flex items-center justify-center h-screen">
       <video
@@ -11,7 +18,7 @@ const ByProtein = () => {
         muted
       />
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-75"></div>
-      <div className="relative bg-white rounded-lg h-1/3 w-1/3 p-8 flex flex-col justify-around">
+      <div className="relative bg-white rounded-lg h-1/3 w-1/3 p-8 flex flex-col justify-center">
         <div className="flex flex-col items-center font-bold">
           <h1 className="text-4xl text-black">Search by</h1>
           <h1 className="text-4xl text-black">Protein name</h1>
@@ -29,6 +36,12 @@ const ByProtein = () => {
           </div>
         </div>
       </div>
+      <button
+        className="bg-white absolute text-sm rounded-lg py-2 px-4 bottom-6 mt-4 p-4 text-black border border-black"
+        onClick={goBack}
+      >
+        Go back
+      </button>
     </div>
   );
 };

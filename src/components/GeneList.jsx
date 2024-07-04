@@ -6,7 +6,7 @@ const GeneTable = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/geneListData.json"); // Replace with your actual file path or API URL
+        const response = await fetch("/geneListData.json");
         const result = await response.json();
         setData(result);
       } catch (error) {
@@ -22,16 +22,16 @@ const GeneTable = () => {
       const geneData = Object.values(item)[0][0];
       return (
         <tr key={index}>
-          <td className="border border-b-blue-700 px-4 py-2 text-center ">
+          <td className="p-6 text-center bg-gradient-to-t from-emerald-900 to-black text-white border border-black ">
             {geneData.ENSG_ID}
           </td>
-          <td className="border border-b-blue-700 px-4 py-2  text-center">
+          <td className=" p-6 text-center bg-gradient-to-t from-emerald-900 to-black text-white border border-black ">
             {geneData.SYMBOL}
           </td>
-          <td className="border border-b-blue-700 px-4 py-2  text-center">
+          <td className=" p-6 text-center bg-gradient-to-t from-emerald-900 to-black text-white border border-black ">
             {geneData.Alias}
           </td>
-          <td className="border border-b-blue-700 px-4 py-2 text-center ">
+          <td className="p-6 text-center bg-gradient-to-t from-emerald-900 to-black text-white border border-black  ">
             {geneData.Description}
           </td>
         </tr>
@@ -39,14 +39,22 @@ const GeneTable = () => {
     });
   };
   return (
-    <div className="flex items-center justify-center min-h-screen">
-      <table className="table-auto w-full mx-auto">
+    <div className="flex items-center justify-center p-4 min-h-screen bg-black">
+      <table className="table-auto w-full mx-auto bg-white ">
         <thead>
           <tr>
-            <th className="px-4 py-2 text-center">ENSG_ID</th>
-            <th className="px-4 py-2 text-center">SYMBOL</th>
-            <th className="px-4 py-2 text-center">Alias</th>
-            <th className="px-4 py-2 text-center">Description</th>
+            <th className="px-4 py-2 text-center border border-black ">
+              ENSG_ID
+            </th>
+            <th className="px-4 py-2 text-center border border-black ">
+              SYMBOL
+            </th>
+            <th className="px-4 py-2 text-center border border-black ">
+              Alias
+            </th>
+            <th className="px-4 py-2 text-center border border-black ">
+              Description
+            </th>
           </tr>
         </thead>
         <tbody>{renderTableData()}</tbody>
